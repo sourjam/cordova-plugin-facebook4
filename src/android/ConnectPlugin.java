@@ -106,10 +106,10 @@ public class ConnectPlugin extends CordovaPlugin {
 
                         // If this login comes after doing a new permission request
                         // make the outstanding graph call
-                        if (lastGraphContext != null) {
-                            makeGraphCall(lastGraphContext);
-                            return;
-                        }
+//                         if (lastGraphContext != null) {
+//                             makeGraphCall(lastGraphContext);
+//                             return;
+//                         }
 
                         if (loginContext != null) {
                             Log.d(TAG, "returning login object " + jsonObject.toString());
